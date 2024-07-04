@@ -30,7 +30,7 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 NeedsCompilation: no
-Packaged: 2024-07-04 20:49:19 UTC; PC
+Packaged: 2024-07-04 21:54:04 UTC; PC
 Author: Colin Fay [aut] (<https://orcid.org/0000-0001-7343-1846>),
   Vincent Guyader [cre, aut] (<https://orcid.org/0000-0003-0671-9270>),
   Josiah Parry [aut] (<https://orcid.org/0000-0001-9910-865X>),
