@@ -129,6 +129,7 @@ test_that("dock_from_renv works with full dependencies", {
     out,
     "R6"
   )
+  skip_if(is_rdevel, "Skip R-devel")
   #python3 is  a un-direct dependencies from custom_packages
   expect_true(  any(grepl("python3",out$Dockerfile)))
 })
@@ -214,10 +215,10 @@ socle_install_version <- "remotes::install_version\\(\"renv\", version = \""
                info = paste(lf," & ",renv_version))
 
 
-}}  
-  
-  
-  
+}}
+
+
+
 
 })
 
