@@ -52,8 +52,7 @@ test_that("dock_from_renv works", {
     out,
     "R6"
   )
-  #python3 is not a direct dependencies from custom_packages
-  expect_false(  any(grepl("python3",out$Dockerfile)))
+
 
   # read Dockerfile
   out$write(
@@ -78,8 +77,9 @@ test_that("dock_from_renv works", {
     grep("RUN R -e 'renv::restore\\(\\)'", dock_created),
     1
   )
-
-
+  skip_if(is_rdevel, "Skip R-devel")
+  #python3 is not a direct dependencies from custom_packages
+  expect_false(  any(grepl("python3",out$Dockerfile)))
   # System dependencies are different when build in interactive environment?
   # yes.  strange.
   skip_if_not(interactive())
