@@ -1,6 +1,5 @@
 test_that("get_sysreqs works", {
   skip_on_cran()
-  skip_if(is_rdevel, "Skip R-devel")
   res <- get_sysreqs(
     c("mongolite"),
     quiet = TRUE
