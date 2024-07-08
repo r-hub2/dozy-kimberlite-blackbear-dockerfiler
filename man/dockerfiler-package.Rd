@@ -17,11 +17,11 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Colin Fay \email{contact@colinfay.me} (\href{https://orcid.org/0000-0001-7343-1846}{ORCID})
+\strong{Maintainer}: Vincent Guyader \email{vincent@thinkr.fr} (\href{https://orcid.org/0000-0003-0671-9270}{ORCID})
 
 Authors:
 \itemize{
-  \item Vincent Guyader \email{vincent@thinkr.fr} (\href{https://orcid.org/0000-0003-0671-9270}{ORCID})
+  \item Colin Fay \email{contact@colinfay.me} (\href{https://orcid.org/0000-0001-7343-1846}{ORCID})
   \item Josiah Parry \email{josiah.parry@gmail.com} (\href{https://orcid.org/0000-0001-9910-865X}{ORCID})
   \item Sébastien Rochette \email{sebastien@thinkr.fr} (\href{https://orcid.org/0000-0002-1565-9313}{ORCID})
 }

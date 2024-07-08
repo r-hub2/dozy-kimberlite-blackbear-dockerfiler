@@ -1,6 +1,6 @@
 Package: dockerfiler
 Title: Easy Dockerfile Creation from R
-Version: 0.2.3
+Version: 0.2.4
 Authors@R: c(
     person("Colin", "Fay", , "contact@colinfay.me", role = c( "aut"),
            comment = c(ORCID = "0000-0001-7343-1846")),
@@ -30,7 +30,7 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
 NeedsCompilation: no
-Packaged: 2024-07-05 06:57:22 UTC; vincent
+Packaged: 2024-07-08 09:22:55 UTC; vincent
 Author: Colin Fay [aut] (<https://orcid.org/0000-0001-7343-1846>),
   Vincent Guyader [cre, aut] (<https://orcid.org/0000-0003-0671-9270>),
   Josiah Parry [aut] (<https://orcid.org/0000-0001-9910-865X>),
